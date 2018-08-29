@@ -13,183 +13,309 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.grey-deep_purple.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+	<link href="css/responsive.css" rel="stylesheet" type="text/css">
+	<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<!-- navbar -->
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
-    <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
-      <div class="mdl-layout__header-row portfolio-logo-row">
-        <span class="mdl-layout__title">
-            <div class="portfolio-logo"></div>
-            <span class="mdl-layout__title">Monstrous ingenuity</span>
-        </span>
-      </div>
-      <!-- nav tabs on large screens -->      
-      <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only mdl-js-ripple-effect">
-          <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-              <a class="mdl-navigation__link is-active" href="index.html">Solutions</a>
-              <a class="mdl-navigation__link bar-inactive" href="about.html">About</a>
-              <a class="mdl-navigation__link bar-inactive" href="contact.html">Contact</a>
-          </nav>
-      </div>
-    </header>
-      <!-- nav drawer on small screens -->
-      <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-          <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-              <a class="mdl-navigation__link is-active" href="index.html">Solutions</a>
-              <a class="mdl-navigation__link" href="about.html">About</a>
-              <a class="mdl-navigation__link" href="contact.html">Contact</a>
-          </nav>
-      </div>
+	<header class="header" id="particles-js">
+		<!--header-start-->
+		<div class="header-overlay">
+			<figure class="logo animated fadeInDown delay-07s">
+				<a href="#"><img src="images/logo-white.png" alt=""></a>
+			</figure>
+			<h1 class="animated fadeInDown delay-07s">Welcome To Typhoon Solutions</h1>
+			<ul class="we-create animated fadeInUp delay-1s">
+				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</li>
+			</ul>
+			<a class="link animated fadeInUp delay-1s servicelink" href="#solutions">Get Started</a>
+		</div>
+	</header>
+	<!--header-end-->
 
-      <main class="mdl-layout__content">
-          <div class="mdl-grid portfolio-max-width">
-              <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                  <div class="mdl-card__media">
-                      <img class="article-image" src=" images/engineering-consulting.jpg" border="0" alt="">
-                  </div>
-                  <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">Consulting Engineering</h2>
-                  </div>
-                  <div class="mdl-card__supporting-text mdl-card--expand">
-                    Functional specifications for building automation, security, networking, middleware, D and C consulting.
-                  </div>
-                  <div class="mdl-card__actions mdl-card--border">
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="contact.html">Enquire</a>
-                  </div>
-              </div>
-              <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                  <div class="mdl-card__media">
-                      <img class="article-image" src=" images/building-automation.png" border="0" alt="">
-                  </div>
-                  <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">Building Automation</h2>
-                  </div>
-                  <div class="mdl-card__supporting-text mdl-card--expand">
-                      BACnet, Modbus, Zigbee, web services, HVAC, lighting, power monitoring and building services supervisory control.
-                  </div>
-                  <div class="mdl-card__actions mdl-card--border">
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="contact.html">Enquire</a>
-                  </div>
-              </div>
-              <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                  <div class="mdl-card__media">
-                      <img class="article-image" src=" images/neural-network.jpg" border="0" alt="">
-                  </div>
-                  <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">Machine Learning and Analytics</h2>
-                  </div>
-                  <div class="mdl-card__supporting-text mdl-card--expand">
-                      Statistical analysis and pattern recognition in BMS, SCADA and SMS for proactive and predictive maintenance, analytics REST API for third party integration.
-                  </div>
-                  <div class="mdl-card__actions mdl-card--border">
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="contact.html">Enquire</a>
-                  </div>
-              </div>
-              <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                  <div class="mdl-card__media">
-                      <img class="article-image" src=" images/systems-integrator.jpg" border="0" alt="">
-                  </div>
-                  <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">Integration</h2>
-                  </div>
-                  <div class="mdl-card__supporting-text mdl-card--expand">
-                      Web services and REST API design, integrated middleware systems
-                  </div>
-                  <div class="mdl-card__actions mdl-card--border">
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="contact.html">Enquire</a>
-                  </div>
-              </div>
-              <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                  <div class="mdl-card__media">
-                      <img class="article-image" src=" images/infosystems.jpg" border="0" alt="">
-                  </div>
-                  <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">Information Systems</h2>
-                  </div>
-                  <div class="mdl-card__supporting-text mdl-card--expand">
-                      Workflow automation, business intelligence, integrated cloud based eCommerce, ERP, CRM and CMMS, integration with SCADA, BMS and SMS reliability centred maintenance.
-                  </div>
-                  <div class="mdl-card__actions mdl-card--border">
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="contact.html">Enquire</a>
-                  </div>
-              </div>
-              <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                  <div class="mdl-card__media">
-                      <img class="article-image" src=" images/infonetworks.jpg" border="0" alt="">
-                  </div>
-                  <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">Networking</h2>
-                  </div>
-                  <div class="mdl-card__supporting-text mdl-card--expand">
-                      Network design, cloud infrastructure, wireless mesh, VPN, managed networks
-                  </div>
-                  <div class="mdl-card__actions mdl-card--border">
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="contact.html">Enquire</a>
-                  </div>
-              </div>
-              <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                  <div class="mdl-card__media">
-                      <img class="article-image" src=" images/cctv.jpg" border="0" alt="">
-                  </div>
-                  <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">Electronic Security</h2>
-                  </div>
-                  <div class="mdl-card__supporting-text mdl-card--expand">
-                      Access control, CCTV, intrusion detection, biometrics. Cardholder integration with identity management systems such as AD and RADIUS.
-                  </div>
-                  <div class="mdl-card__actions mdl-card--border">
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="contact.html">Enquire</a>
-                  </div>
-              </div>
-              <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                  <div class="mdl-card__media">
-                      <img class="article-image" src=" images/infosec.jpg" border="0" alt="">
-                  </div>
-                  <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">Information Security</h2>
-                  </div>
-                  <div class="mdl-card__supporting-text mdl-card--expand">
-                      Information systems and network security design based on ASD and NSA guidelines. User management, encryption, VPN, penetration testing and mitigation of attack vectors.
-                  </div>
-                  <div class="mdl-card__actions mdl-card--border">
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="contact.html">Enquire</a>
-                  </div>
-              </div>
-              <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                  <div class="mdl-card__media">
-                      <img class="article-image" src=" images/project-management.jpg" border="0" alt="">
-                  </div>
-                  <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">Engineering and Project Management Contracting</h2>
-                  </div>
-                  <div class="mdl-card__supporting-text mdl-card--expand">
-                      Outsourcing of project management and specialist engineering services.
-                  </div>
-                  <div class="mdl-card__actions mdl-card--border">
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="contact.html">Enquire</a>
-                  </div>
-              </div>
-          </div>
-          <footer class="mdl-mini-footer">
-              <div class="mdl-mini-footer__left-section">
-                  <div class="mdl-logo">Typhon Solutions Pty Ltd</div>
-              </div>
-              <div class="mdl-mini-footer__right-section">
-                  <ul class="mdl-mini-footer__link-list">
-                      <li><a href="#">Help</a></li>
-                      <li><a href="#">Privacy & Terms</a></li>
-                  </ul>
-              </div>
-          </footer>
-      </main>
-  </div>
+  <nav class="main-nav-outer" id="test">
+		<!--main-nav-start-->
+		<div class="container">
+			<ul class="main-nav">
+				<li><a href="#particles-js">Home</a></li>
+				<li><a href="#solutions">Solutions</a></li>
+				<li class="small-logo"><a href="#header"><img src="images/logo-small.png" alt=""></a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<a class="res-nav_click" href="#"><i class="fa fa-bars"></i></a>
+		</div>
+	</nav>
+	<!--main-nav-end-->
+
+  <section class="main-section paddind" id="solutions">
+		<!--main-section-start-->
+		<div class="container">
+			<h2>Solutions</h2>
+			<h6>We offer exceptional service with complimentary hugs.</h6>
+      <div class="row portfolioContainer wow fadeInUp delay-04s">
+        <div class="col-md-4 col-sm-4 Portfolio-box">
+          <img src="images/solutions/consult.jpeg" alt="Consulting Engineering">
+          <h3>Consulting Engineering</h3>
+          <p>Functional specifications for building automation, security, networking, middleware, D and C consulting.</p>
+        </div>
+        <div class="col-md-4 col-sm-4 Portfolio-box">
+          <img src="images/solutions/automation.jpeg" alt="Building Automation">
+          <h3>Building Automation</h3>
+          <p>BACnet, Modbus, Zigbee, web services, HVAC, lighting, power monitoring and building services supervisory control.</p>
+        </div>
+        <div class="col-md-4 col-sm-4 Portfolio-box">
+          <img src="images/solutions/machine-learning.jpeg" alt="Machine Learning and Analytics">
+          <h3>Machine Learning and Analytics</h3>
+          <p>BACnet, Modbus, Zigbee, web services, HVAC, lighting, power monitoring and building services supervisory control.</p>
+        </div>
+		  </div>
+      <div class="row portfolioContainer wow fadeInUp delay-05s">
+        <div class="col-md-4 col-sm-4 Portfolio-box">
+          <img src="images/solutions/integration.jpeg" alt="Integration">
+          <h3>Integration</h3>
+          <p>Web services and REST API design, integrated middleware systems</p>
+        </div>
+        <div class="col-md-4 col-sm-4 Portfolio-box">
+          <img src="images/solutions/crm.jpeg" alt="Information Systems">
+          <h3>Information Systems</h3>
+          <p>Workflow automation, business intelligence, integrated cloud based eCommerce, ERP, CRM and CMMS, integration with SCADA, BMS and SMS reliability centred maintenance.</p>
+        </div>
+        <div class="col-md-4 col-sm-4 Portfolio-box">
+          <img src="images/solutions/networking.jpeg" alt="Networking">
+          <h3>Networking</h3>
+          <p>Network design, cloud infrastructure, wireless mesh, VPN, managed networks</p>
+        </div>
+      </div>
+      <div class="row portfolioContainer wow fadeInUp delay-06s">
+        <div class="col-md-4 col-sm-4 Portfolio-box">
+          <img src="images/solutions/cctv.jpeg" alt="Electronic Security">
+          <h3>Electronic Security</h3>
+          <p>Access control, CCTV, intrusion detection, biometrics. Cardholder integration with identity management systems such as AD and RADIUS.</p>
+        </div>
+        <div class="col-md-4 col-sm-4 Portfolio-box">
+          <img src="images/solutions/security.jpeg" alt="Information Security">
+          <h3>Information Security</h3>
+          <p>Information systems and network security design based on ASD and NSA guidelines. User management, encryption, VPN, penetration testing and mitigation of attack vectors.</p>
+        </div>
+        <div class="col-md-4 col-sm-4 Portfolio-box">
+          <img src="images/solutions/contract.jpeg" alt="Engineering and Project Management Contracting">
+          <h3>Engineering and Project Management Contracting</h3>
+          <p>Outsourcing of project management and specialist engineering services.</p>
+        </div>
+		  </div>
+    </div>
+  </section>
+	<!--main-section-end-->
+
+	<section class="main-section about" id="about">
+		<!--main-section alabaster-start-->
+		<div class="container">
+			<div class="row">
+				<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
+					<img src="images/about-header.jpg" alt="">
+				</figure>
+				<div class="col-lg-7 col-sm-8 featured-work">
+					<h2 class="text-center">About</h2>
+					<h6>Get to know us.</h6>
+					<h3 class="wow fadeInRight delay-02s animated">Capability Statement</h3>
+					<p class="wow fadeInRight delay-02s animated padding-b">Typhon Solutions Pty Ltd is an Australian specialist in automation systems, ICT and analytics.</p>
+					<p class="wow fadeInRight delay-02s animated padding-b">We provide professional engineering and project management services in the areas of automatic control, electronic security, cloud infrastructure, middleware, communications, workflow integration, asset management and exploitation of big data. We also supply, install and commission associated data centre, plant and electrical equipment.</p>
+					<p class="wow fadeInRight delay-02s animated padding-b">Our technologies and solutions enable our customers to automate and manage their businesses so that they can focus on what they do best.</p>
+					<br/>
+					<h3 class="wow fadeInRight delay-02s animated">Impartiality</h3>
+					<p class="wow fadeInRight delay-02s animated padding-b">
+						We openly provide both consulting and contracted engineering services. We have a strict impartiality policy on consulting to protect stakeholders from conflicts of interest. <a href="contact.html">Contact us</a> to view our detailed policy.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--main-section alabaster-end-->
+
+  <section class="business-talking">
+		<!--business-talking-start-->
+		<div class="container">
+			<h2>Let’s Talk Business.</h2>
+		</div>
+	</section>
+	<!--business-talking-end-->
+	<div class="container">
+		<section class="main-section contact" id="contact">
+
+			<div class="row">
+				<div class="col-lg-6 col-sm-7 wow fadeInLeft">
+					<div class="contact-info-box phone clearfix">
+						<h3><i class="fa fa-building"></i>Business:</h3>
+						<span>Typhon Solutions Pty Ltd<br>ACN 616 648 965</span>
+					</div>
+					<div class="contact-info-box address clearfix">
+						<h3><i class="fa fa-map-marker"></i>Address:</h3>
+						<span>12 Pomona St<br>Brighton Queensland 4017</span>
+					</div>
+					<div class="contact-info-box phone clearfix">
+						<h3><i class="fa fa-phone"></i>Phone:</h3>
+						<span><a href="tel:+61401753661" data-rel="external">(+61) 0401 753 661</a></span>
+					</div>
+					<div class="contact-info-box email clearfix">
+						<h3><i class="fa fa-pencil"></i>Email:</h3>
+						<span><a href="mailto:enquiries@typhon.solutions" data-rel="external">enquiries@typhon.solutions</a></span>
+					</div>
+					<ul class="social-link">
+						<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+						<li class="gplus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li class="dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+					<div class="form">
+
+						<div id="sendmessage">Your message has been sent. Thank you!</div>
+						<div id="errormessage"></div>
+						<form action="https://formspree.io/clive@typhon.solutions" method="post" role="form" class="contactForm">
+							<div class="form-group">
+								<input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control input-text" name="_replyto" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+								<div class="validation"></div>
+							</div>
+							<div class="form-group">
+								<textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+								<div class="validation"></div>
+							</div>
+
+							<div class="text-center"><button type="submit" class="input-btn">Send Message</button></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-logo"><a href="#"><img class="img-responsive" src="images/logo-white.png" alt=""></a></div>
+			<span class="copyright">&copy; Typhon Solutions Pty Ltd. All Rights Reserved</span>
+		</div>
+	</footer>
 
   <!-- scripts -->
-  <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  <script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.js"></script>
+	<script type="text/javascript" src="js/lib/wow/wow.js"></script>
+	<script type="text/javascript" src="js/classie.js"></script>
+	<script type="text/javascript" src="js/magnific-popup.js"></script>
+  <script type="text/javascript" src="js/lib/particles/particles.js"></script>
+  <script type="text/javascript" src="js/lib/particles/app.js"></script>
+
+  <script type="text/javascript">
+		$(document).ready(function(e) {
+
+			$('#test').scrollToFixed();
+			$('.res-nav_click').click(function() {
+				$('.main-nav').slideToggle();
+				return false
+
+			});
+
+      $('.Portfolio-box').magnificPopup({
+        delegate: 'a',
+        type: 'image'
+      });
+
+		});
+	</script>
+
+	<script>
+		wow = new WOW({
+			animateClass: 'animated',
+			offset: 100
+		});
+		wow.init();
+	</script>
+
+
+	<script type="text/javascript">
+		$(window).load(function() {
+
+			$('.main-nav li a, .servicelink').bind('click', function(event) {
+				var $anchor = $(this);
+
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top - 102
+				}, 1500, 'easeInOutExpo');
+				/*
+				if you don't want to use the easing effects:
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top
+				}, 1000);
+				*/
+				if ($(window).width() < 768) {
+					$('.main-nav').hide();
+				}
+				event.preventDefault();
+			});
+		})
+	</script>
+
+	<script type="text/javascript">
+		$(window).load(function() {
+
+
+			var $container = $('.portfolioContainer'),
+				$body = $('body'),
+				colW = 375,
+				columns = null;
+
+
+			$container.isotope({
+				// disable window resizing
+				resizable: true,
+				masonry: {
+					columnWidth: colW
+				}
+			});
+
+			$(window).smartresize(function() {
+				// check if columns has changed
+				var currentColumns = Math.floor(($body.width() - 30) / colW);
+				if (currentColumns !== columns) {
+					// set new column count
+					columns = currentColumns;
+					// apply width to container manually, then trigger relayout
+					$container.width(columns * colW)
+						.isotope('reLayout');
+				}
+
+			}).smartresize(); // trigger resize to set container width
+			$('.portfolioFilter a').click(function() {
+				$('.portfolioFilter .current').removeClass('current');
+				$(this).addClass('current');
+
+				var selector = $(this).attr('data-filter');
+				$container.isotope({
+
+					filter: selector,
+				});
+				return false;
+			});
+
+		});
+	</script>
 </body>
 </html>
